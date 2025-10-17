@@ -29,6 +29,7 @@ environments:
       - conda: https://conda.anaconda.org/conda-forge/linux-64/nvim-0.11.4-he0ba70d_3.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/ripgrep-15.0.0-hdab8a38_0.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/unibilium-2.1.2-h73b1eb8_0.conda
+      - conda: https://conda.anaconda.org/conda-forge/linux-64/zoxide-0.9.8-h8fae777_0.conda
 packages:
 - conda: https://conda.anaconda.org/conda-forge/linux-64/_libgcc_mutex-0.1-conda_forge.tar.bz2
   sha256: fe51de6107f9edc7aa4f786a70f4a883943bc9d39b3bb7307c04c41410990726
@@ -300,3 +301,15 @@ packages:
   license_family: LGPL
   size: 36637
   timestamp: 1748291542292
+- conda: https://conda.anaconda.org/conda-forge/linux-64/zoxide-0.9.8-h8fae777_0.conda
+  sha256: 9bd01f4da9029c5d14139bbfc9fb51aab75405ae1c9ef72483b4fec2649f3399
+  md5: 928870ff5bfe65236a16029e86da3c92
+  depends:
+  - __glibc >=2.17,<3.0.a0
+  - libgcc >=13
+  constrains:
+  - __glibc >=2.17
+  license: MIT
+  license_family: MIT
+  size: 465572
+  timestamp: 1748311267622
