@@ -1,0 +1,13 @@
+[workspace]
+authors = ["Anders Pitman <&ers@apitman.com>"]
+channels = ["conda-forge"]
+name = "sysconf"
+platforms = ["linux-64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+neovim = ">=0.3.1,<0.4"
+ripgrep = ">=15.0.0,<16"
+fzf = ">=0.66.0,<0.67"
