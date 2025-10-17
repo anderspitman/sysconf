@@ -1,0 +1,7 @@
+[user]
+        email = &ers@apitman.com
+        name = Anders Pitman
+[core]
+        editor = nvim
+[init]
+        defaultBranch = main
